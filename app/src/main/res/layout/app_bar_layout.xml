@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:titleTextColor="#ffffff"
+    android:outlineAmbientShadowColor="#ffffff"
+    android:outlineSpotShadowColor="#ffffff"
+    app:subtitleTextColor="#ffffff"
+    android:background="#1F1F57"
+    android:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
+
+    >
+<!--    <EditText-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:gravity="center"-->
+<!--        android:id="@+id/editTextToolbar"-->
+<!--        android:layout_marginLeft="50dp"-->
+<!--        android:hint="Department name"-->
+<!--        android:textSize="10sp"-->
+<!--        android:textColorHint="@color/whiteTextColor"-->
+<!--        android:textColor="@color/whiteTextColor"-->
+<!--        android:backgroundTint="@color/whiteTextColor"-->
+<!--        android:visibility="gone"-->
+
+<!--        />-->
+</androidx.appcompat.widget.Toolbar>

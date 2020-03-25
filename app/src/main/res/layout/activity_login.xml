@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+style="@style/loginParent"
+tools:context=".Login.LoginActivity"
+    android:background="@drawable/main_background"
+    android:gravity="center_vertical"
+    >
+<ScrollView
+    style="@style/parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="12"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+
+
+
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/car_logo"
+                    />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+
+            >
+
+
+            <include layout="@layout/layout_login" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="9sp"
+        android:text="© DM DEVELOPMENTS 2017. ALL RIGHTS RESERVED."
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
+
+

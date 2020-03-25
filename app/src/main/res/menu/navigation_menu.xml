@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home_72dp"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/addCar"
+        android:title="Add"
+        android:icon="@drawable/ic_add_circle_black_72dp"
+        app:showAsAction="ifRoom"
+        />
+<item android:id="@+id/action_profile"
+    android:title="Profile"
+    android:icon="@drawable/ic_account_circle_72dp"
+    app:showAsAction="ifRoom"
+    />
+    <item android:id="@+id/action_control"
+        android:title="Control Panel"
+        android:icon="@drawable/ic_build_black_72dp"
+        app:showAsAction="ifRoom"
+
+        />
+    <item
+        android:id="@+id/action_settings"
+        android:title="settings"
+        android:icon="@drawable/ic_settings_72dp"
+        app:showAsAction="ifRoom"
+        />
+    <item android:title="Other"  >
+
+
+    <menu>
+    <item
+        android:title="About us"
+        android:icon="@drawable/ic_format_align_center_72dp"
+        android:id="@+id/action_about_us"
+
+        />
+
+    <item android:title="Logout"
+        android:icon="@drawable/logout"
+        android:id="@+id/action_logout"
+        />
+
+
+</menu>
+
+</item>
+</menu>

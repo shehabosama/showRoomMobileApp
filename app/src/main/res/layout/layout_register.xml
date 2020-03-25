@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/loginCard"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/loginViewsMargin"
+    android:layout_marginBottom="@dimen/loginViewsMargin"
+
+
+    >
+
+    <!--    app:cardBackgroundColor="#14237C"-->
+    <!--    app:cardCornerRadius="20dp"-->
+    <!--    app:cardElevation="10dp"-->
+
+    <LinearLayout
+        style="@style/linearParent"
+        android:layout_gravity="center"
+        android:padding="@dimen/loginViewsMargin"
+        >
+
+        <TextView
+            style="@style/headerTextPrimary"
+            android:text="Register"
+            android:layout_marginTop="@dimen/loginViewsMargin"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputName"
+            style="@style/parent"
+            android:textColorHint="@color/whiteCardColor"
+            android:theme="@style/parent"
+            android:layout_marginTop="@dimen/loginViewsMargin">
+
+            <EditText
+                android:id="@+id/edit_text_name"
+                style="@style/modifiedEditText"
+                android:hint="@string/Name"
+                android:maxLines="1"
+                android:inputType="text"
+                android:textColorHint="@color/whiteCardColor"
+                android:textColor="@color/whiteCardColor"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputEmail"
+            style="@style/parent"
+            android:textColorHint="@color/whiteCardColor"
+            android:layout_marginTop="@dimen/loginViewsMargin"
+            android:theme="@style/parent">
+            <EditText
+                android:id="@+id/editTextEmail"
+                style="@style/modifiedEditText"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:textColorHint="@color/whiteCardColor"
+                android:hint="@string/login_email_hint"
+                android:textColor="@color/whiteCardColor"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputPassword"
+            style="@style/parent"
+            android:textColorHint="@color/whiteCardColor"
+            android:theme="@style/parent"
+            android:layout_marginTop="@dimen/loginViewsMargin">
+
+            <EditText
+                android:id="@+id/editTextPassword"
+                style="@style/modifiedEditText"
+                android:hint="@string/login_password_hint"
+                android:maxLines="1"
+                android:inputType="textPassword"
+                android:textColorHint="@color/whiteCardColor"
+                android:textColor="@color/whiteCardColor"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputConfirmPassword"
+            style="@style/parent"
+            android:textColorHint="@color/whiteCardColor"
+            android:theme="@style/parent"
+            android:layout_marginTop="@dimen/loginViewsMargin">
+
+            <EditText
+                android:id="@+id/editTextConfirmPassword"
+                style="@style/modifiedEditText"
+                android:hint="@string/ConfirmPassword"
+                android:maxLines="1"
+                android:inputType="textPassword"
+                android:textColorHint="@color/whiteCardColor"
+                android:textColor="@color/whiteCardColor"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputPhone"
+            style="@style/parent"
+            android:textColorHint="@color/whiteCardColor"
+            android:theme="@style/parent"
+            android:layout_marginTop="@dimen/loginViewsMargin">
+
+            <EditText
+                android:id="@+id/edit_text_phone"
+                style="@style/modifiedEditText"
+                android:hint="@string/phone"
+                android:maxLines="1"
+                android:inputType="phone"
+                android:textColorHint="@color/whiteCardColor"
+                android:textColor="@color/whiteCardColor"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btn_register"
+            style="@style/loginButton"
+            android:text="Register"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/loginViewsMargin"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

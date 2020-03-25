@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowRoomCarsFragment.ShowRoomCarsFragment"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/main_background">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/srlList"
+        android:visibility="gone"
+        >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recycler_view"/>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginHorizontal="20dp"
+        android:visibility="gone"
+        android:id="@+id/lin_add">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/car_logo"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recycler_selected_photo"
+            android:layout_marginVertical="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/whiteTextColor"
+            android:hint="Car Name"
+            android:textSize="15dp"
+            android:textColor="@color/whiteTextColor"
+            android:textColorHint="@color/whiteTextColor"
+            android:inputType="text"
+            android:id="@+id/edit_car_name"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/whiteTextColor"
+            android:hint="Car Description"
+            android:textSize="15dp"
+            android:textColor="@color/whiteTextColor"
+            android:textColorHint="@color/whiteTextColor"
+            android:inputType="text"
+            android:id="@+id/edit_car_description"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/whiteTextColor"
+            android:hint="Car Model"
+            android:inputType="number"
+            android:textSize="15dp"
+            android:textColor="@color/whiteTextColor"
+            android:textColorHint="@color/whiteTextColor"
+            android:id="@+id/edit_car_model"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_button_bk2"
+            android:id="@+id/btn_add_cars"
+            android:text="Upload Car Now"
+            android:layout_marginVertical="10dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
