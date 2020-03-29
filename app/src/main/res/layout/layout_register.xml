@@ -21,7 +21,7 @@
 
         <TextView
             style="@style/headerTextPrimary"
-            android:text="Register"
+            android:text="@string/register"
             android:layout_marginTop="@dimen/loginViewsMargin"/>
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputName"
@@ -114,7 +114,7 @@
         <Button
             android:id="@+id/btn_register"
             style="@style/loginButton"
-            android:text="Register"
+            android:text="@string/register"
             android:textColor="@color/black"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/loginViewsMargin"

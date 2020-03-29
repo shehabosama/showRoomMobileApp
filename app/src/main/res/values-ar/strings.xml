@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">معرض العربيات</string>
+    <string name="register">تسجيل</string>
+    <string name="login_email_hint">البريد الاكتروني</string>
+    <string name="login_password_hint">كلمه المرور</string>
+    <string name="signup_login_hint">هل لديك حساب جديد ؟ دخول</string>
+    <string name="login_signup_hint">ليس لديك حساب ؟ سجل</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="Name">الاسم</string>
+    <string name="ConfirmPassword">تاكيد كلمه المرور</string>
+    <string name="home">الرئيسيه</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_maps_key">AIzaSyCdsBzQrHiM6zAfQuS5XUrkQY96gcN6CX0</string>
+    <string name="action_settings">الاعدادات</string>
+    <string name="about_us">من نحن</string>
+    <string name="interduce">نحن طلاب في معاهد العبور لقد درسنا لأفاده المجتمع من خلال ما درسناه ولنقدم الخدمات وذلك من خلال تقنيات تعلمنها في المعهد وبمساعده الدكتور و الهيئه المعاونه</string>
+    <string name="team_members">اعضاء الفريق</string>
+
+    <string name="login">تسجيل</string>
+    <string name="name">الاسم :</string>
+    <string name="email">البريد الاكتروني :</string>
+    <string name="block_user">حظر المستخدم</string>
+    <string name="make_him_admin">تعينه كامسؤول</string>
+    <string name="delete_him">حذف المستخدم</string>
+    <string name="add_emergence_number">اضافه ارقام ظوارئ</string>
+    <string name="number">الرقم</string>
+    <string name="add">اضافه</string>
+    <string name="price">السعر :</string>
+    <string name="aya_abdelmoaty">ايه عبدالمعطي</string>
+    <string name="ahemd_adel_ellithy">احمد عادل اليثي</string>
+    <string name="bsaam_adel_eprahim">بسام عادل ابراهيم</string>
+    <string name="samer_elsayed_anour">سمير السيد نور</string>
+    <string name="sameh_shaban_abdelkader">سامح شعبان عبدالقادر</string>
+    <string name="khaled_mohmmed_elsayed">خالد محمد السيد</string>
+    <string name="ali_amin_ahmed">علي امين احمد</string>
+    <string name="hssean_khaled_hassan">حسين خالد حسن</string>
+    <string name="add_showroom">اضافه معرض سيارات</string>
+    <string name="add_car_spar">اضافه قطع غيار</string>
+    <string name="add_emergencies_no">اضافه ارقام طوارئ</string>
+    <string name="showroom_name">اسم المعرض</string>
+    <string name="add_location">اضافه الموقع</string>
+    <string name="description">الوصف</string>
+    <string name="upload">رفع</string>
+    <string name="email_address">البريد الاكتروني :</string>
+    <string name="address">العنوان :</string>
+    <string name="account_settings">اعدادات الحساب</string>
+    <string name="personal_information">المعلومات الشخصيه</string>
+    <string name="support">الدعم</string>
+    <string name="get_help">الحصول علي مساعده</string>
+    <string name="car_name">اسم السياره</string>
+    <string name="car_description">وصف السياره</string>
+    <string name="car_model">موديل السياره</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="sell_price">السعر بعد الخصم</string>
+    <string name="sell_my_car">بيع سيارتي</string>
+    <string name="update_your_information">تحديث المعلومات الشخصيه</string>
+    <string name="user_name">اسم المستخدم</string>
+    <string name="password">كلمه المرور</string>
+    <string name="confirm_password">تاكيد كلمه المرور</string>
+    <string name="update">تحديث</string>
+</resources>

@@ -38,7 +38,7 @@
                             android:textStyle="bold"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Name: "
+                            android:text="@string/name"
                             android:textSize="13dp"
                             android:textColor="#000"
                             android:layout_marginBottom="5dp"
@@ -67,7 +67,7 @@
                             android:textStyle="bold"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Email: "
+                            android:text="@string/email"
                             android:textSize="13dp"
                             android:textColor="#000"
                             android:layout_marginBottom="5dp"
@@ -103,7 +103,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="block User"
+                        android:text="@string/block_user"
                         android:layout_marginTop="5dp"
 
                         />
@@ -111,14 +111,14 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Make him admin"
+                        android:text="@string/make_him_admin"
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="5dp"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="delete him"
+                        android:text="@string/delete_him"
                         android:layout_marginTop="13dp"
                         android:layout_marginRight="5dp"
                         />

@@ -60,15 +60,7 @@ tools:context=".Login.LoginActivity"
     </LinearLayout>
 
 </ScrollView>
-    <TextView
-        android:gravity="center_horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="#fff"
-        android:textSize="9sp"
-        android:text="© DM DEVELOPMENTS 2017. ALL RIGHTS RESERVED."
-        android:layout_marginBottom="10dp"
-        android:layout_gravity="center_horizontal"/>
+
 </LinearLayout>
 
 

@@ -16,7 +16,7 @@
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:background="@drawable/login_button_bk2"
-        android:text="Add Showroom"
+        android:text="@string/add_showroom"
         android:id="@+id/btn_showroom"
         android:layout_marginVertical="5dp"
         />
@@ -24,7 +24,7 @@
         android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:background="@drawable/login_button_bk2"
-        android:text="Add car spar"
+        android:text="@string/add_car_spar"
         android:id="@+id/spar"
         android:layout_marginVertical="5dp"
 
@@ -33,7 +33,7 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:background="@drawable/login_button_bk2"
-        android:text="Sell My Car"
+        android:text="@string/sell_my_car"
         android:id="@+id/btn_add_cars"
         android:layout_marginVertical="5dp"
 
@@ -42,8 +42,7 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:background="@drawable/login_button_bk2"
-        android:text="add
-        emergencies No"
+        android:text="@string/add_emergencies_no"
         android:id="@+id/emergence"
         android:layout_marginVertical="5dp"
 

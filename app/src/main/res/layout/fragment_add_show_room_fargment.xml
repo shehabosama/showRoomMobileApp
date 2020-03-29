@@ -23,7 +23,7 @@
         android:textColor="@color/whiteTextColor"
         android:textStyle="bold"
         android:textColorHint="@color/whiteTextColor"
-        android:hint="Showroom Name"
+        android:hint="@string/showroom_name"
         android:backgroundTint="@color/whiteTextColor"
         android:layout_marginHorizontal="30dp"
         android:id="@+id/edit_text_show_name"
@@ -43,7 +43,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add Location"
+        android:text="@string/add_location"
         android:drawableBottom="@drawable/ic_add_location_black_24dp"
         android:background="@drawable/login_button_bk2"
         android:layout_marginVertical="5dp"
@@ -53,7 +53,7 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:background="@drawable/login_button_bk2"
-        android:text="Add ShowRoom"
+        android:text="@string/add_showroom"
         android:id="@+id/btn_add_show_room"
         />
 

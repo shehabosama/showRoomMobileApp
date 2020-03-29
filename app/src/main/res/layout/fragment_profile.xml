@@ -79,7 +79,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="25dp"
                     android:padding="10dp"
-                    android:text="Email address :"
+                    android:text="@string/email_address"
                     android:textAlignment="center"
                     android:textColor="#fff"
                     android:textSize="16dp"
@@ -111,7 +111,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="25dp"
                     android:padding="10dp"
-                    android:text="Address            :"
+                    android:text="@string/address"
                     android:textAlignment="center"
                     android:textColor="#fff"
                     android:textSize="16dp"
@@ -157,7 +157,7 @@
                     android:layout_marginLeft="25dp"
                     android:drawableLeft="@drawable/ic_settings_72dp"
                     android:padding="10dp"
-                    android:text=" Account settings "
+                    android:text="@string/account_settings"
                     android:textAlignment="center"
                     android:textColor="#fff"
                     android:textSize="20sp"
@@ -193,7 +193,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="25dp"
                     android:padding="10dp"
-                    android:text="Personal information "
+                    android:text="@string/personal_information"
                     android:textAlignment="center"
                     android:textColor="#fff"
                     android:textSize="16dp"
@@ -229,7 +229,7 @@
                     android:layout_marginLeft="25dp"
                     android:drawableLeft="@drawable/ic_hearing_black_24dp"
                     android:padding="10dp"
-                    android:text="  Support "
+                    android:text="@string/support"
                     android:textAlignment="center"
                     android:textColor="#fff"
                     android:textSize="20sp"
@@ -262,55 +262,15 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="25dp"
                     android:padding="10dp"
-                    android:text="Get help "
+                    android:text="@string/get_help"
                     android:textAlignment="center"
                     android:textColor="#fff"
                     android:textSize="16dp"
                     android:textStyle="bold" />
 
             </LinearLayout>
-            <LinearLayout
-                android:id="@+id/give_us_feed_back"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/get_help"
-                android:layout_marginTop="0dp"
-                android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/give_us_feed_back_text"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
-                    android:padding="10dp"
-                    android:text="Give us feedback "
-                    android:textAlignment="center"
-                    android:textColor="#fff"
-                    android:textSize="16dp"
-                    android:textStyle="bold" />
 
-            </LinearLayout>
-            <LinearLayout
-                android:id="@+id/terms_service"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/give_us_feed_back"
-                android:layout_marginTop="0dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/terms_service_text"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
-                    android:padding="10dp"
-                    android:text="Terms and service "
-                    android:textAlignment="center"
-                    android:textColor="#fff"
-                    android:textSize="16dp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
 
         </RelativeLayout>
     </ScrollView>
