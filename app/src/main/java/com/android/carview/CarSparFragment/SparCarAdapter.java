@@ -45,6 +45,7 @@ public class SparCarAdapter extends RecyclerView.Adapter<SparCarAdapter.ShowRoom
         holder.SparCarPrice.setText("Price : "+String.valueOf(sparCar.getPrice()));
         holder.SparCarDescription.setText("description : "+sparCar.getSpar_description());
         holder.SparCarLocation.setText("location : "+sparCar.getLocation());
+        holder.SparPhone.setText("Phone : "+ sparCar.getPhoneNo());
         Picasso.with(context)
                 .load("https://shehab.develogs.com/car-project/uploads/" + sparCar.getSpar_image())
                 .placeholder(R.drawable.ic_launcher_foreground)
@@ -66,7 +67,7 @@ public class SparCarAdapter extends RecyclerView.Adapter<SparCarAdapter.ShowRoom
 
     public class ShowRoomHolder extends RecyclerView.ViewHolder {
 
-        TextView SparCarName,SparCarDescription,SparCarLocation,SparCarPrice;
+        TextView SparCarName,SparCarDescription,SparCarLocation,SparCarPrice,SparPhone;
         ImageView showImage;
 
         public ShowRoomHolder(@NonNull View itemView) {
@@ -76,6 +77,7 @@ public class SparCarAdapter extends RecyclerView.Adapter<SparCarAdapter.ShowRoom
             SparCarLocation = itemView.findViewById(R.id.text_spar_location);
             SparCarDescription = itemView.findViewById(R.id.text_spar_description);
             SparCarPrice = itemView.findViewById(R.id.text_spar_price);
+            SparPhone = itemView.findViewById(R.id.text_spar_phone);
         }
 
         public void setListener(final SparCar sparCar) {

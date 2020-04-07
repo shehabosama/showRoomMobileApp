@@ -23,7 +23,7 @@ public class LoginActivity extends BaseActivity implements LoginContract.View,Lo
     private String toast;
     private Button btnLogin;
     private EditText editTextEmail,editTextPassword;
-    private TextView textViewRegister,textViewForgetPassword;
+    private TextView textViewRegister;
     private ProgressDialog progressDialog;
     private myDbAdapter helper;
     private PresenterLogin presenter;
@@ -43,7 +43,6 @@ public class LoginActivity extends BaseActivity implements LoginContract.View,Lo
         btnLogin = findViewById(R.id.btn_login);
         editTextEmail = findViewById(R.id.editTextEmail);
         editTextPassword = findViewById(R.id.editTextPassword);
-        textViewForgetPassword = findViewById(R.id.textViewForgetPassword);
         textViewRegister = findViewById(R.id.textViewRegister);
         progressDialog = new ProgressDialog(this);
         helper = new myDbAdapter(this);
@@ -97,7 +96,6 @@ public class LoginActivity extends BaseActivity implements LoginContract.View,Lo
     @Override
     protected void setListeners() {
         btnLogin.setOnClickListener(btnLoginListener);
-        textViewForgetPassword.setOnClickListener(textViewForgetPasswordListener);
         textViewRegister.setOnClickListener(textViewRegisterListener);
     }
     View.OnClickListener btnLoginListener = new View.OnClickListener() {
@@ -113,12 +111,7 @@ public class LoginActivity extends BaseActivity implements LoginContract.View,Lo
             RegisterActivity.startActivity(LoginActivity.this);
         }
     };
-    View.OnClickListener textViewForgetPasswordListener = new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-
-        }
-    };
+  
 
 
 

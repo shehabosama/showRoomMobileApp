@@ -133,7 +133,8 @@ public interface API {
                                        @Part("item_name") String item_name,
                                        @Part("item_description") String item_description,
                                        @Part("price") String price,
-                                       @Part("location")String location);
+                                       @Part("location")String location,
+                                       @Part("phone_no") String phone_no);
 
     @POST("get-all-spar-car.php")
     Call<List<SparCar>> getAllSparCar();

@@ -46,7 +46,7 @@ public class AddCarSparFragment extends BaseFragment implements AddMenuItemContr
     private static final int PICK_FROM_GALLERY = 141;
     private Button uploadBtn;
     private ImageView selectImage;
-    private EditText itemName, itemDescription, itemPrice,itemLocation;
+    private EditText itemName, itemDescription, itemPrice,itemLocation,itemPhoneNo;
     private Context context;
     private Uri uri;
     PresenterAddMenuItem presenter;
@@ -86,6 +86,7 @@ public class AddCarSparFragment extends BaseFragment implements AddMenuItemContr
         itemDescription = v.findViewById(R.id.edit_text_item_description);
         itemPrice = v.findViewById(R.id.edit_text_item_price);
         itemLocation = v.findViewById(R.id.edit_text_location);
+        itemPhoneNo = v.findViewById(R.id.edit_text_phone);
         presenter = new PresenterAddMenuItem(this, this);
         progressDialog = new ProgressDialog(getActivity());
     }
@@ -114,7 +115,8 @@ public class AddCarSparFragment extends BaseFragment implements AddMenuItemContr
                     itemName.getText().toString()
                     ,itemDescription.getText().toString(),
                     itemPrice.getText().toString(),
-                    itemLocation.getText().toString());
+                    itemLocation.getText().toString(),
+                    itemPhoneNo.getText().toString());
 
 
         }

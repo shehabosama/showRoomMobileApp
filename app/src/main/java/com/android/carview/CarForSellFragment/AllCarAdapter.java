@@ -16,6 +16,7 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.android.carview.R;
 import com.android.carview.common.model.Car;
+import com.ms.square.android.expandabletextview.ExpandableTextView;
 
 import java.util.List;
 
@@ -56,7 +57,7 @@ public class AllCarAdapter extends RecyclerView.Adapter<AllCarAdapter.ServiceHod
 
             holder.mainLin.setVisibility(View.VISIBLE);
             holder.name.setText(car.getCarName());
-            holder.descroption.setText(car.getCarDescription());
+        holder.expTv1.setText(car.getCarDescription());
 
             //ImageAdapter imageAdapter = new ImageAdapter(car.getCars(),context);
             ImagePagerAdapter imageAdapter = new ImagePagerAdapter(context,car.getCars());
@@ -75,11 +76,6 @@ public class AllCarAdapter extends RecyclerView.Adapter<AllCarAdapter.ServiceHod
         }else{
             holder.usage.setText("Used");
         }
-
-
-
-
-
     }
 
 
@@ -96,6 +92,7 @@ public class AllCarAdapter extends RecyclerView.Adapter<AllCarAdapter.ServiceHod
     public class ServiceHoder extends RecyclerView.ViewHolder {
         ViewPager viewPager;
         TextView name, descroption,price,sellPrice;
+        ExpandableTextView expTv1;
         LinearLayout linearLayout,mainLin;
         ImageView imageView;
         Button usage;
@@ -105,7 +102,8 @@ public class AllCarAdapter extends RecyclerView.Adapter<AllCarAdapter.ServiceHod
             super(itemView);
             viewPager = itemView.findViewById(R.id.view_pager);
             name = itemView.findViewById(R.id.name);
-            descroption = itemView.findViewById(R.id.description);
+           // descroption = itemView.findViewById(R.id.description);
+            expTv1 = itemView.findViewById(R.id.expand_text_view);
             linearLayout = itemView.findViewById(R.id.linear);
             mainLin = itemView.findViewById(R.id.main_lin);
             imageView = itemView.findViewById(R.id.toggle_favorite);

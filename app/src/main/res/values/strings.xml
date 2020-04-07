@@ -20,14 +20,12 @@
     <string name="interduce">We are Students in abour institution . we have learned the topics about programming and information system to benefit the society.</string>
     <string name="team_members">Team Members</string>
     <string name="login">Login</string>
-    <string name="login">Login</string>
     <string name="name">Name:</string>
     <string name="email">Email:</string>
-    <string name="block_user">block User</string>
-    <string name="make_him_admin">Make him admin</string>
+    <string name="block_user">block</string>
+    <string name="make_him_admin">admin</string>
     <string name="delete_him">delete him</string>
     <string name="add_emergence_number">Add Emergence Number</string>
-    <string name="Name">Name</string>
     <string name="number">Number</string>
     <string name="add">Add</string>
     <string name="price">Price :</string>
@@ -58,10 +56,10 @@
     <string name="car_model">Car Model</string>
     <string name="phone_number">Phone Number</string>
     <string name="sell_price">Sell Price</string>
-    <string name="sell_my_car">Sell My Car</string>
     <string name="update_your_information">Update your Information</string>
     <string name="user_name">User Name</string>
     <string name="password">Password</string>
     <string name="confirm_password">Confirm password</string>
     <string name="update">Update</string>
+    <string name="location">Location</string>
 </resources>

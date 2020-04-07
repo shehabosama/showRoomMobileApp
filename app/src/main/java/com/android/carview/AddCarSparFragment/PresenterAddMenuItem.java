@@ -30,7 +30,7 @@ public class PresenterAddMenuItem implements AddMenuItemContract.Presenter{
     }
 
     @Override
-    public void performAddMenuItem(Context context, Uri uri, String userId,String itemName, String itemDescription, String itemPrice,String location) {
+    public void performAddMenuItem(Context context, Uri uri, String userId,String itemName, String itemDescription, String itemPrice,String location,String phoneNo) {
         view.showProgress();
             if(uri == null){
                 view.validation("Pleas Select the photo");
@@ -53,7 +53,7 @@ public class PresenterAddMenuItem implements AddMenuItemContract.Presenter{
 
                 RequestBody items1 = RequestBody.create(MediaType.parse("application/json"), items);
                 RequestBody stringValue1 = RequestBody.create(MediaType.parse("text/plain"), stringValue);
-                WebService.getInstance(true).getApi().addSparPartItem(cookie, body, items1, stringValue1,Integer.parseInt(userId),itemName,itemDescription,itemPrice,location).enqueue(new Callback<MainResponse>() {
+                WebService.getInstance(true).getApi().addSparPartItem(cookie, body, items1, stringValue1,Integer.parseInt(userId),itemName,itemDescription,itemPrice,location,phoneNo).enqueue(new Callback<MainResponse>() {
                     @Override
                     public void onResponse(Call<MainResponse> call, Response<MainResponse> response) {
                         if (response.body().status == 2){

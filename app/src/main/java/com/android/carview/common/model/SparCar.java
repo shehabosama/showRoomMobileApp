@@ -18,6 +18,16 @@ public class SparCar
     private String location;
     @SerializedName("price")
     private double price;
+    @SerializedName("phone_no")
+    private String phoneNo;
+
+    public String getPhoneNo() {
+        return phoneNo;
+    }
+
+    public void setPhoneNo(String phoneNo) {
+        this.phoneNo = phoneNo;
+    }
 
     public int getId() {
         return id;

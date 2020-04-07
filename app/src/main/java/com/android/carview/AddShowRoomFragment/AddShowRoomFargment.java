@@ -107,6 +107,7 @@ public class AddShowRoomFargment extends BaseFragment  implements AddShowroomCon
     protected void initializeViews(View v) {
 
         setHasOptionsMenu(true);
+
         mFusedLocationClient = LocationServices.getFusedLocationProviderClient(getActivity());
          mapFragment = (SupportMapFragment) getChildFragmentManager().findFragmentById(R.id.frg);  //use SuppoprtMapFragment for using in fragment instead of activity  MapFragment = activity   SupportMapFragment = fragment
         btnGetMap= v.findViewById(R.id.getMap);

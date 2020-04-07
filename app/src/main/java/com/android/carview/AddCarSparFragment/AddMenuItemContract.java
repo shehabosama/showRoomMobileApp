@@ -21,6 +21,6 @@ public interface AddMenuItemContract {
     interface Presenter{
 
 
-        void performAddMenuItem(Context context, Uri uri,String userId, String userName, String itemDescription, String itemPrice,String location);
+        void performAddMenuItem(Context context, Uri uri, String userId,String itemName, String itemDescription, String itemPrice,String location,String phoneNo);
     }
 }
